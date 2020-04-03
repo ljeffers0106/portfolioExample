@@ -1,0 +1,62 @@
+body {
+    background-color: #f2e4d9;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+H1 {
+    color: black;
+    padding: 3px;
+    font-family: sans-serif;
+    /*font-family: Georgia, 'Times New Roman', Times, serif; */
+    text-align: left;
+    font-size: 20px;
+    background-color:lightgrey;
+    margin: auto;
+    opacity: 0.50;
+    }
+
+#MyName{
+    margin-right: 3px;
+}
+#mymug {
+    width: 150px;
+}
+
+#MyStory{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color:lightgrey;
+    font-family: sans-serif; 
+    /*font-family: Georgia, 'Times New Roman', Times, serif; */
+    padding: 25px;  
+    text-align: center;
+    /*border: 5px solid rgb(81, 55, 82); */
+    opacity: 0.50;
+    font-weight: 700;
+}
+
+#myimage {
+    width: 300px;
+}
+#MyText{
+    position: static;
+}
+.MyMug {
+    border: 3px solid rgb(81, 55, 82);  
+    padding: 15px;  
+    
+}
+.MyPic {
+    position: absolute;
+    right: 15px;
+    width: 400px;
+    height: 500px;
+    border: 5px solid rgb(81, 55, 82);
+    padding: 15px; 
+        
+    mix-blend-mode: hard-light;
+}
