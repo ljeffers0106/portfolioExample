@@ -42,9 +42,7 @@ H1 {
 #myimage {
     width: 300px;
 }
-#MyText{
-    position: static;
-}
+
 .MyMug {
     border: 3px solid rgb(81, 55, 82);  
     padding: 15px;  
