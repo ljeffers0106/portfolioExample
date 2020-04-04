@@ -10,12 +10,25 @@ H1 {
     font-family: sans-serif;
     /*font-family: Georgia, 'Times New Roman', Times, serif; */
     text-align: left;
+    text-shadow: 2px 2px rgb(81, 55, 82);
     font-size: 20px;
     background-color:lightgrey;
     margin: auto;
     opacity: 0.50;
     }
-
+    H2 {
+        color: black;
+        padding: 3px;
+        font-family: sans-serif;
+        /*font-family: Georgia, 'Times New Roman', Times, serif; */
+        text-align: Center;
+        text-shadow: 2px 2px rgb(81, 55, 82);
+        font-size: 40px;
+        background-color:lightgrey;
+        margin: auto;
+        opacity: 0.50;
+        }
+    
 #MyName{
     margin-right: 3px;
 }
