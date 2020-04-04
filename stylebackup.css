@@ -24,7 +24,7 @@ H1 {
 }
 
 #MyStory{
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -54,56 +54,7 @@ H1 {
     width: 400px;
     height: 500px;
     border: 5px solid rgb(81, 55, 82);
-    padding: 15px;        
+    padding: 15px; 
+        
     mix-blend-mode: hard-light;
-}
-
-.outerbox {
-    position: fixed;
-    bottom: 100px;
-    right: 475px;
-    width: 50%;
-    height: 110px;
-    Padding-top: 10px;
-    background-color: lightgrey;
-    opacity: 0.60;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    align-content: space-between;
-    justify-content: space-around;
-
- }
-
-
- .innerbox{
-    width: 20%;
-    height: 80px;
-    background-color:rosybrown;
-    border: 5px solid  rgb(81, 55, 82);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 700;
-
- }
- #box1{
-    align-self: stretch; 
-    padding: 5px;  
-    text-align: center;   
- }
- #box2{
-    align-self: stretch; 
-    padding: 5px;  
-    text-align: center;      
- }
- #box3{
-    align-self: stretch;   
-    padding: 5px;  
-    text-align: center;    
-}
- #box4{
-    align-self: normal; 
-    padding: 5px;  
-    text-align: center;      
 }
